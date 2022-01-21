@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Kwitter Room</title>
+    <link rel="stylesheet" href="kwitter.css">
+    <script src="kwitterRoom.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+
+<body id="body2" onload="getName()">
+    <center>
+        <button class="btn" id="btnLogout" onclick="logout()">Logout</button>
+        <h1 id="username"><b></b></h1>
+        <br>
+        <img id="birdImg" src="birdImg.png">
+        <br>
+        <br>
+        <br>
+        <div id="roomDiv">
+            <label id="room">Enter room id here :</label>
+            <input type="text" placeholder="room id" id="roomIdInput" class="form-control">
+            <br>
+            <button class="btn" id="btnAddRoom" onclick="addRoom()">Add room</button>
+        </div>
+        <br>
+        <h2 id="trendingRooms"><b>Trending Rooms</b></h2>
+        <br>
+        <div id="output"></div>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+#body2 {
+    background-color: black
+}
+
+#btnLogout {
+    float: right;
+    margin: 15px;
+    margin-right: 30px;
+}
+
+#roomIdInput {
+    width: 50%;
+}
+
+#username,
+#usernameLbl {
+    color: white;
+}
+
+#btnLogout {
+    background-color: white;
+    color: black;
+}
+
+#room {
+    color: black;
+}
+
+#roomDiv {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 3px;
+    width: 700px;
+    height: 180px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+#btnAddRoom {
+    background-color: black;
+    color: white;
+}
+
+#username {
+    margin-left: 100px;
+}
+
+#birdImg {
+    border-radius: 25px;
+}
+
+#output {
+    padding: 10px;
+    width: 80%;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+}
+
+#trendingRooms {
+    color: white;
+}

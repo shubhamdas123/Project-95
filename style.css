@@ -1,0 +1,46 @@
+h1 {
+    font-size: 80px;
+}
+
+#input,
+#usernameInput {
+    width: 300px;
+}
+
+#loginDiv {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 3px;
+    width: 700px;
+    height: 450px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: black;
+    float: right;
+    margin-right: 80px;
+}
+
+#btnLogin {
+    background-color: black;
+    color: white;
+    width: 20%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    float: left;
+    margin-left: 100px;
+    margin-top: 70px;
+    border-radius: 25px;
+    height: 300px;
+}
+
+#lblKwitter {
+    font-size: 30px;
+}
